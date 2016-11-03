@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<web-app 
+xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+version="2.4">
+	<!-- <servlet>
+		<servlet-name>name</servlet-name>
+		<servlet-class>Hello</servlet-class>
+		
+		
+		<init-param>
+			<param-name>great</param-name>
+			<param-value>Welcome</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>name</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping> -->
+	
+	
+	<!-- <servlet>
+		<servlet-name>Parm</servlet-name>
+		<servlet-class>ShowParam</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>Parm</servlet-name>
+		<url-pattern>/ShowParam</url-pattern>
+	</servlet-mapping> -->
+	
+	<servlet>
+		<servlet-name>admin</servlet-name>
+		<servlet-class>Admin</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>admin</servlet-name>
+		<url-pattern>/Admin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>homepage</servlet-name>
+		<servlet-class>homeServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>homepage</servlet-name>
+		<url-pattern>/homepageAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>newblog</servlet-name>
+		<servlet-class>NewBlogServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>newblog</servlet-name>
+		<url-pattern>/newBlog</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteblog</servlet-name>
+		<servlet-class>DeleteBlobServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>deleteblog</servlet-name>
+		<url-pattern>/deleteBlog</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>
